@@ -1,0 +1,10 @@
+THINGS TO DO:
+- Setup the first file (ComputerScienceATAR)
+    o Add non-contextual questions
+    o Add scenarios and questions relating to a scenario
+    o Add review material or content learning section
+
+- Decide the structure of the json files.
+    o Should it be {Questions = {Contextual, Non-Contextual}, LearnedContent}, {ScenarioQuestions, Non-ContextualQuestions, Content} etc.
+
+- Learn how to use Json files
