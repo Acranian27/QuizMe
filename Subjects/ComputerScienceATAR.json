@@ -1,8 +1,39 @@
 {
   "Questions" : {
+    "Non-Contextual" : [
+      {
+        "Question" : "Question",
+        "ModelAnswer" : "Answer",
+        "KeyWords" : ["KeyWord", "KeyPhrase"]
+      }
+    ],
 
+    "Contextual" : [
+      {
+        "Question" : "Question",
+        "ModelAnswer" : "Answer",
+        "KeyWords" : ["KeyWord", "KeyPhrase"],
+        "Context?" : "ReferenceToContext?"
+      }
+    ]
   },
-  "Content" : {
 
-  }
+  "Content" : [
+    {
+      "Unit" : "UnitName",
+      "More" : "To Add",
+      "Topics" : [
+        {
+          "Topic" : "TopicName",
+          "ConceptsEtc?" : [
+            {
+              "Definitions?" : [],
+              "Models?" : [],
+              "Skills?" : []
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

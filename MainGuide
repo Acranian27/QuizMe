@@ -5,19 +5,34 @@ THINGS TO DO:
     o Add review material or content learning section
 
 - Decide the structure of the json files.
-    Idea 1: {
+    Chosen Idea: {
         Questions = {
-            Contextual,
-            Non-Contextual
+            Contextual : [
+                { Stuff about the question }
+            ],
+            Non-Contextual : [
+                { Stuff about the question }
+            ]
         },
-        Content
+        Content : [
+            { Units? -> Topics? -> Concepts etc? }
+        ]
     }
+    o Stuff about the question could include:
+        0 Question
+        0 Model Answer -> suggested answer
+        0 Key Words -> what the answer requires
+        0 Context? -> scenario details for a context question
 
-    Idea 2: {
-        ScenarioQuestions,
-        Non-ContextualQuestions,
-        Content
-    }
+    o Content will likely entail:
+        0 Units -> Names of the key areas of the subjects (e.g. Cybersecurity, Programming, Data Management etc)
+        0 Topics -> Things explored in that unit (e.g. Network security, OOP, Databases etc)
+        0 Concepts etc -> Base level content that needs to be known and understood (e.g. TCP/IP model, classes, SQL querying)
+
+    o Tags might also be very important so that a user can select questions that belong to a specific tag group:
+        0 #Programming or #AustralianPrivacyPrinciples for example,
+        0 and they only get questions that either associate with one or more of the tags.
+        0 Questions have tags so that it is clear what content is assessed, and content groups have tags so that content can be found.
 
 - Learn how to use Json files
     > Useful things to help:
