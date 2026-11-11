@@ -5,6 +5,20 @@ THINGS TO DO:
     o Add review material or content learning section
 
 - Decide the structure of the json files.
-    o Should it be {Questions = {Contextual, Non-Contextual}, LearnedContent}, {ScenarioQuestions, Non-ContextualQuestions, Content} etc.
+    Idea 1: {
+        Questions = {
+            Contextual,
+            Non-Contextual
+        },
+        Content
+    }
+
+    Idea 2: {
+        ScenarioQuestions,
+        Non-ContextualQuestions,
+        Content
+    }
 
 - Learn how to use Json files
+    > Useful things to help:
+    - https://www.w3schools.com/python/python_json.asp
