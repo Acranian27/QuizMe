@@ -10,7 +10,7 @@ THINGS TO DO:
             Contextual : [
                 { Stuff about the question }
             ],
-            Non-Contextual : [
+            NonContextual : [
                 { Stuff about the question }
             ]
         },
@@ -19,9 +19,10 @@ THINGS TO DO:
         ]
     }
     o Stuff about the question could include:
-        0 Question
-        0 Model Answer -> suggested answer
-        0 Key Words -> what the answer requires
+        0 Question -> what is being asked to do
+        0 Model Answer -> suggested answer that would get full marks
+        0 Key Words -> what the answer requires to get full marks
+        0 Type? -> Could describe in what way the question is meant to be answered (e.g. diagram, definition, evaluation, practical etc.)
         0 Context? -> scenario details for a context question
 
     o Content will likely entail:

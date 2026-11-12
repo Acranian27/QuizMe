@@ -1,10 +1,11 @@
 {
+  "SubjectName" : "Computer Science ATAR",
   "Questions" : {
-    "Non-Contextual" : [
+    "NonContextual" : [
       {
         "Question" : "Question",
         "ModelAnswer" : "Answer",
-        "KeyWords" : ["KeyWord", "KeyPhrase"]
+        "Keywords" : ["KeyWord", "KeyPhrase"]
       }
     ],
 
@@ -12,8 +13,8 @@
       {
         "Question" : "Question",
         "ModelAnswer" : "Answer",
-        "KeyWords" : ["KeyWord", "KeyPhrase"],
-        "Context?" : "ReferenceToContext?"
+        "Keywords" : ["Keyword", "KeyPhrase"],
+        "Context" : "ReferenceToContext"
       }
     ]
   },
